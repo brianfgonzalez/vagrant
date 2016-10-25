@@ -14,6 +14,12 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Chocolately packages
+*.nupkg
+*.iso
+.vagrant/
+chocolatey*/*
+
 # Windows shortcuts
 *.lnk
 
