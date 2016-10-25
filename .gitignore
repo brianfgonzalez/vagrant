@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 *.iso
 .vagrant/
 chocolatey*/*
+ADK_1607/
 
 # Windows shortcuts
 *.lnk
