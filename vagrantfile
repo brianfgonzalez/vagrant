@@ -1,11 +1,11 @@
 # -*- mode: ruby -*-							# other commands:
 # vi: set ft=ruby :								#   vagrant up --no-provision
 # local: vagrant up --provision-with a,c		#   vagrant snapshot save "clean"
-# web:  vagrant up --provision-with b,c		#   vagrant reload --provision-with a,c
+# web:  vagrant up --provision-with b,c			#   vagrant reload --provision-with a,c
 												#   vagrant snapshot restore "clean" --no-provision
 #machine_name = "SCCM1607"
 machine_name = "MDT2013U201"
-gist_url="https://gist.githubusercontent.com/brianfgonzalez/fa0720471ce2f6722d3ced4672e3f47a/raw/0362070e2fb335ff9f778b2d3eacaaa595490941/mdt.ps1"
+gist_url="https://gist.githubusercontent.com/brianfgonzalez/fa0720471ce2f6722d3ced4672e3f47a/raw/a4efb95b2e1fb5dd21167619bc1742decbb2049e/mdt2013u2.ps1"
 
 Vagrant.configure("2") do |config|
   config.vm.box = "brianfgonzalez/winserver12r2"
